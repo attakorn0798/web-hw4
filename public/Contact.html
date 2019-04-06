@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Elements - Editorial by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="is-preload">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="Home.html">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+			aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarColor01">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="Gallery.html">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contact.html">contact</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h1>Attakorn Taname</h1>
+							<h2>Web developer</h2>
+						</header>
+						<h3><a href="attakorn_taname@cmu.ac.th">attakorn_taname@cmu.ac.th</a></h3>
+						<h4>(+66)-882-677366</h4>
+					</div>
+					<span class="cpe">
+						<img src="images/cpe.jpg" alt="pensiri" width="300px" height="300px" />
+					</span>
+				</section>
+
+				<!-- Buttons -->
+				<section id="button">
+
+
+					<!-- Form -->
+					<h3>Form</h3>
+
+					<form method="post" action="#" id="book-form">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="title" value="" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="author" value="" placeholder="Email" />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="demo-phone" id="isbn" value="" placeholder="Phone" />
+							</div>
+							<!-- Break -->
+							<div class="col-12">
+								<select name="demo-category" id="category">
+									<option value="">- Subject -</option>
+									<option value="agorithm">agorithm</option>
+									<option value="basiccomp">basiccomp</option>
+									<option value="numerical">numerical</option>
+									<option value="datacommunication">datacommunication</option>
+								</select>
+							</div>
+							<!-- Break -->
+							<div>
+								<h3>Gender</h3>
+							</div>
+							<div class="col-4 col-12-small">
+								<select name="demo-gender" id="gender">
+									<option value="">- gender -</option>
+									<option value="male">male</option>
+									<option value="female">female</option>
+								</select>
+							</div>
+							
+							<!-- Break -->
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="demo-human" name="demo-human">
+								<label for="demo-human">I am a human</label>
+							</div>
+							<!-- Break -->
+							<div class="col-12">
+								<textarea name="demo-message" id="message" placeholder="Enter your message"
+									rows="6"></textarea>
+							</div>
+							<!-- Break -->
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="submit" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+
+
+				<!-- 8. table for output     -->
+				<table class="table table-striped mt-5">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Phone</th>
+							<th>Gender</th>
+							<th>Subject</th>
+							<th>Message</th>
+							<th></th>
+						</tr>
+					</thead>
+					<!-- 9. add placeholder to insert list of book       -->
+					<tbody id="book-list"></tbody>
+				</table>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="main.js"></script>
+
+
+</body>
+
+</html>
